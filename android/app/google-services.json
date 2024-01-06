@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "525485120477",
+    "project_id": "tryf-75e6f",
+    "storage_bucket": "tryf-75e6f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:525485120477:android:f632949cc8d6e07e4af434",
+        "android_client_info": {
+          "package_name": "com.example.cgm"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBf09W0_I5Gt58oMXHUKFRKrjNtAzT6Jb0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
