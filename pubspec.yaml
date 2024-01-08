@@ -43,6 +43,7 @@ dependencies:
   cached_network_image:
   http:
   shared_preferences:
+  video_player:
 
 dev_dependencies:
   flutter_test:

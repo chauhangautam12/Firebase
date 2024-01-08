@@ -62,13 +62,26 @@ class _UserinfoState extends State<Userinfo> {
   }
   @override
   Widget build(BuildContext context) {
-    setState(() {
 
-    });
     return Scaffold(
      appBar: AppBar(
+
+       toolbarHeight: 70,
+       centerTitle: true,
+       flexibleSpace: Container(
+
+       decoration: BoxDecoration(
+           borderRadius: BorderRadius.only(bottomLeft: Radius.circular(30),bottomRight: Radius.circular(30)),
+           gradient: LinearGradient(
+           // begin: Alignment.center,
+           // end: Alignment.bottomLeft,
+
+           colors: [
+         Colors.limeAccent,Colors.red,Colors.lime])),
+
+       ) ,
        title: Text("User Info",style: TextStyle(color: Colors.white)),
-       backgroundColor: Colors.lime,
+       backgroundColor: Colors.white,
      ),
       drawer: Drawer(
         width: 250,
